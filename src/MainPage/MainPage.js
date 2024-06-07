@@ -20,7 +20,7 @@ const MainPage = ({props}) => {
 
     return (
         
-        <div className="container">ghasioejaiogieaogew
+        <div className="container">
             <div className="MainFrame">
                 <div className={"main-mypage-button"}></div>
                 <div className={"main-filter-button"} onClick={handleFilterButtonClick}>검색필터</div>
