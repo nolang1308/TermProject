@@ -1,0 +1,69 @@
+.camp-info-object {
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 10px; /* 모서리 둥글게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과 */
+    overflow: hidden; /* 내용이 넘칠 경우 숨김 */
+    transition: transform 0.2s; /* 마우스 오버 시 부드러운 애니메이션 */
+}
+
+.camp-info-object:hover {
+    transform: scale(1.02); /* 마우스 오버 시 약간 확대 */
+}
+
+.camp-info-picture {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    position: relative;
+}
+
+.camp-info-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.camp-info-picture img.active {
+    display: block;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+}
+
+.camp-info-name {
+    font-size: 20px;
+    text-align: center; /* 가운데 정렬 */
+    margin: 10px 0;
+}
+
+.camp-info-address {
+    font-size: 15px;
+    text-align: center; /* 가운데 정렬 */
+    margin: 5px 0;
+}
+
+.camp-info-phone {
+    font-size: 15px;
+    text-align: center; /* 가운데 정렬 */
+    margin: 5px 0;
+}

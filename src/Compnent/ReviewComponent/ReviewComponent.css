@@ -1,0 +1,13 @@
+.site-list-box{
+    margin: 10px;
+    width: 530px;
+    height: 100px;
+    background-color: blue;
+}
+.site-type{
+    width: 100px;
+    height: 30px;
+    background-color: palegoldenrod;
+    font-size:20px ;
+    color: black;
+}
